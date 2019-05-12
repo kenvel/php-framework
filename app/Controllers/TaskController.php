@@ -14,7 +14,7 @@ class TaskController extends AppController
      * @return mixed
      */
     public function all($page = 1){
-        //$this->db->checkTables();
+        $this->db->checkTables();
 
         $task = new Task();
         $tasks = $task->all();

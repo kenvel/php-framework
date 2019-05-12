@@ -45,7 +45,7 @@ class Framework
 
         try {
 
-            require_once(ABS_PATH . $this->app .'/Routes/Routes.php');
+            require_once(ABS_PATH . $this->app .'/Routes/routes.php');
 
             /**
              * Finding up dispatcher

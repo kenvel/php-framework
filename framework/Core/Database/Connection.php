@@ -1,7 +1,7 @@
 <?php
 namespace Framework\Core\Database;
 
-use \PDO;
+use PDO;
 
 /**
  * Database connection class

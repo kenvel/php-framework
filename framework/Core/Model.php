@@ -2,6 +2,7 @@
 
 
 namespace Framework\Core;
+use \Envms\FluentPDO\Query;
 
 /**
  * Class Model
@@ -22,8 +23,7 @@ abstract class Model
      * Model constructor.
      */
     public function __construct(){
-        //$this->db = $GLOBALS['di']->get('db');
-        $this->db = new \Envms\FluentPDO\Query($GLOBALS['pdo']);
+        $this->db = new Query($GLOBALS['pdo']);
     }
 
     /**
