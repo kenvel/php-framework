@@ -1,0 +1,19 @@
+{
+    "name": "papa/_my_php_engine",
+    "authors": [
+        {
+            "name": "Dmirty Kenvel",
+            "email": "dimult22@gmail.com"
+        }
+    ],
+    "require": {
+        "envms/fluentpdo": "^2.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "framework",
+            "App\\": "app",
+            "Framework\\DI\\": "framework/DI"
+        }
+    }
+}
